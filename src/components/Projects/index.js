@@ -32,7 +32,14 @@ const settingsSlider = {
             slidesToShow: 1,
             slidesToScroll: 1
           }
-        }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
       ]
 };
 
@@ -50,13 +57,7 @@ const settingsSliderPhoto = {
             slidesToScroll: 1
           }
         },
-        {
-            breakpoint: 900,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          }
+        
       ]
 };
 
@@ -141,6 +142,10 @@ const Wrapper = styled.div`
 
     @media only screen and (max-width: 600px) {
         padding: 10px;
+    }
+
+    @media only screen and (max-width: 900px) {
+        padding: 10px 5%;
     }
 `
 
@@ -270,7 +275,7 @@ const Projects = props => {
                 <Title>Projects</Title>
             </TextWrap>
                 <Row>
-                    <Col xs={24} sm={12} md={12} lg={8}>
+                    <Col xs={24} sm={12} md={12} lg={12} xl={8}>
                         <Card onClick={() => schollToRef(refSmartPlug)}>
                             <img 
 
@@ -282,7 +287,7 @@ const Projects = props => {
                             </div>
                         </Card>
                     </Col>
-                    <Col xs={24} sm={12} md={12} lg={8} >
+                    <Col xs={24} sm={12} md={12} lg={12} xl={8}>
                         <Card onClick={() => schollToRef(refBullNCow)}>
                             <img
                                 style={{width: '100%'}} 
@@ -294,7 +299,7 @@ const Projects = props => {
                             </div>
                         </Card>
                     </Col>
-                    <Col xs={24} sm={12} md={12} lg={8} >
+                    <Col xs={24} sm={12} md={12} lg={12} xl={8} >
                         <Card onClick={() => schollToRef(refChatApp)}>
                             <img 
                                 style={{width: '100%'}} 
@@ -306,7 +311,7 @@ const Projects = props => {
                             </div>
                         </Card>
                     </Col>
-                    <Col xs={24} sm={12} md={12} lg={8} >
+                    <Col xs={24} sm={12} md={12} lg={12} xl={8} >
                         <Card onClick={() => schollToRef(refShowPhoto)}>
                             <img 
                                 style={{width: '100%'}} 

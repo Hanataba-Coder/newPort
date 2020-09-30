@@ -115,6 +115,24 @@ const Navbar = styled.header`
     }
 
 `
+const SubText = styled.div`
+    font-size: 16px
+`
+const Ul = styled.ul`
+    list-style: none;
+    display: flex;
+
+    & li > a {
+        text-decoration: none;
+        font-size: 40px;
+        margin-right: 20px;
+        color: #aaa;
+    }
+
+    & li > a:hover {
+        color: #000;
+    }
+`
 
 const MenuOverlay = styled.div`
     z-index: 1000;
@@ -336,13 +354,31 @@ const Footer = styled.footer`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
     color: #848484;
     background-color: #fff;
     text-align: center;
+    flex-direction: column;
+    border-top: .5px solid #a1a1a1;
+    margin-top: 10px;
+
+    & .contact{
+        display: flex;
+        align-items: center;
+    }
+
+    & .contact-detail{
+        padding: 30px;
+        text-align: initial;
+    }
 
     @media only screen and (max-width: 600px) {
-        height: 50px;
+        & .contact{
+            flex-direction: column;
+        }
+
+        & .contact-detail{
+            text-align: center;
+        }
     }
 `
 
@@ -542,9 +578,24 @@ const Home = props => {
                 //Footer
             }
             <Footer>
-                <div>
-                    Design by Yodsapat
-                </div>
+                    <div className="contact">
+                        <div className="contact-detail">
+                            <Title style={{fontSize: '22px'}} >Contact</Title>
+                            <SubText>Tel: 0991184910</SubText>
+                            <SubText>Email: pa.yodsapat@gmail.com</SubText>
+                        </div>
+                        <Ul>
+                            <li>
+                                <a href="https://www.facebook.com/phoom.yodsapat/" target="_blank" ><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/yodspat/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </Ul>
+                    </div>
+                    <div style={{marginTop: '5px', marginBottom: '20px'}} >
+                        Design by Yodsapat
+                    </div>
             </Footer>
 
             {isOpenLightBox &&
