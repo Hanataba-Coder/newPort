@@ -83,7 +83,7 @@ const Navbar = styled.header`
 
     button.bar {
         display: none;
-        position: fixed;
+        position: absolute;
         top: 5px;
         right: 5px;
         background-color: transparent;

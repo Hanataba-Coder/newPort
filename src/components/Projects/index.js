@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import styled, { keyframes } from 'styled-components';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
@@ -241,6 +241,18 @@ const CenterVertical = styled.div`
 `
 
 const Projects = props => {
+    const refSmartPlug = useRef(null);
+    const refChatApp = useRef(null);
+    const refBullNCow = useRef(null);
+    const refShowPhoto = useRef(null);
+    
+    const schollToRef = (ref) => {
+        ref.current.scrollIntoView({
+            behavior: "smooth",
+            block: "nearest",
+            inline: "start"
+          }) 
+    }
 
     return(
         <Wrapper id="project"  data-aos="fade-up" data-aos-duration="1000">
@@ -249,7 +261,7 @@ const Projects = props => {
             </TextWrap>
                 <Row>
                     <Col xs={24} sm={12} md={12} lg={8}>
-                        <Card>
+                        <Card onClick={() => schollToRef(refSmartPlug)}>
                             <img 
 
                                 alt=""
@@ -261,7 +273,7 @@ const Projects = props => {
                         </Card>
                     </Col>
                     <Col xs={24} sm={12} md={12} lg={8} >
-                        <Card>
+                        <Card onClick={() => schollToRef(refBullNCow)}>
                             <img
                                 style={{width: '100%'}} 
                                 alt="" 
@@ -273,19 +285,19 @@ const Projects = props => {
                         </Card>
                     </Col>
                     <Col xs={24} sm={12} md={12} lg={8} >
-                        <Card>
+                        <Card onClick={() => schollToRef(refChatApp)}>
                             <img 
                                 style={{width: '100%'}} 
                                 alt=""
                                 src={ChatApp3} 
                             />
                             <div className="overlay" >
-                                <div className="text">Chat App Firebase</div>
+                                <div className="text">Chat App For Practice</div>
                             </div>
                         </Card>
                     </Col>
                     <Col xs={24} sm={12} md={12} lg={8} >
-                        <Card>
+                        <Card onClick={() => schollToRef(refShowPhoto)}>
                             <img 
                                 style={{width: '100%'}} 
                                 alt=""
@@ -298,7 +310,7 @@ const Projects = props => {
                     </Col>
                 </Row>
 
-                <div  data-aos="fade-up" data-aos-duration="1000">
+                <div ref={refBullNCow} data-aos="fade-up" data-aos-duration="1000">
                     <TextWrap >
                         <Title>Bulls & Cows</Title>
                     </TextWrap>
@@ -336,7 +348,7 @@ const Projects = props => {
                     </WrapChatApp>
                 </div>
 
-                <div  data-aos="fade-up" data-aos-duration="1000">  
+                <div ref={refSmartPlug} data-aos="fade-up" data-aos-duration="1000">  
                     <TextWrap>
                         <Title>Smart Plug & Web Application</Title>
                     </TextWrap>
@@ -381,9 +393,9 @@ const Projects = props => {
                     </Slider>
                 </div>
 
-                <div  data-aos="fade-up" data-aos-duration="1000">
+                <div ref={refChatApp} data-aos="fade-up" data-aos-duration="1000">
                     <TextWrap >
-                        <Title>Chat App</Title>
+                        <Title>Chat App for Practice</Title>
                     </TextWrap>
 
                     <WrapChatApp >
@@ -413,7 +425,7 @@ const Projects = props => {
                     </WrapChatApp>
                 </div>
 
-                <div  data-aos="fade-up" data-aos-duration="1000">
+                <div ref={refShowPhoto} data-aos="fade-up" data-aos-duration="1000">
                     <TextWrap >
                         <Title>Show Photos</Title>
                     </TextWrap>
