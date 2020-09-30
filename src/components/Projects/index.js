@@ -199,6 +199,7 @@ const LinkButton = styled.a.attrs({
     border: 1px solid #000;
     margin-right: 5px;
     width: fit-content;
+    border-radius: 5px;
 
     :hover{
         background-color: #fff;
@@ -209,13 +210,15 @@ const LinkButton = styled.a.attrs({
     @media only screen and (max-width: 600px) {
         display: block;
         margin: 5px auto;
+        width: auto;
+        text-align: center;
     }
 `
 
 const WrapChatApp = styled.div`
 
     .description {
-        margin: auto;
+        margin: 0 auto;
     }
 
     .description p{
@@ -329,9 +332,7 @@ const Projects = props => {
                             <Col xs={24} sm={12} md={12} className="description">
                                 <div>
                                     <p>
-                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Guess 4 digits number between 0 to 9 in order to match all number in each position of answer and the digits must be all different 
                                     </p>
                                     <LinkButton  href="https://github.com/Hanataba-Coder/ionic-bullsNcows">
                                             Try It! on React 
@@ -412,9 +413,10 @@ const Projects = props => {
                             <Col xs={24} sm={12} md={12} className="description">
                                 <div>
                                     <p>
-                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                        Chat App โดยใช้ firebase ประกอบด้วย <br/>
+                                        - หน้าสมัครผู้ใช้งาน <br/>
+                                        - หน้าเข้าสู่ระบบ <br/>
+                                        - ห้องแชทรวม <br/>
                                     </p>
                                     <LinkButton href="https://github.com/Hanataba-Coder/chatAppFirebase" > 
                                             Swift
@@ -451,9 +453,7 @@ const Projects = props => {
                             <Col xs={24} sm={12} md={12} className="description">
                                 <div>
                                     <p>
-                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                        show photos from unsplash api and see detail of the photo  
                                     </p>
                                     <LinkButton href="https://github.com/Hanataba-Coder/ionic-testRequest">
                                             Ionic

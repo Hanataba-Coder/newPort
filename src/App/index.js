@@ -18,6 +18,7 @@ const App = () => {
       <BaseStyled/>
       <Switch>
         <Route path="/" component={Home} />
+        <Redirect to="/"/>
       </Switch>
     </Aux>
     )
