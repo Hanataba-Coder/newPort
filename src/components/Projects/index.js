@@ -49,7 +49,14 @@ const settingsSliderPhoto = {
             slidesToShow: 1,
             slidesToScroll: 1
           }
-        }
+        },
+        {
+            breakpoint: 900,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          }
       ]
 };
 
@@ -334,7 +341,7 @@ const Projects = props => {
                                     <p>
                                     Guess 4 digits number between 0 to 9 in order to match all number in each position of answer and the digits must be all different 
                                     </p>
-                                    <LinkButton  href="https://github.com/Hanataba-Coder/ionic-bullsNcows">
+                                    <LinkButton  href="https://hanataba-coder.github.io/BullsNCowsReact/">
                                             Try It! on React 
                                     </LinkButton>
                                     <LinkButton href="https://github.com/Hanataba-Coder/guessNumber" >
