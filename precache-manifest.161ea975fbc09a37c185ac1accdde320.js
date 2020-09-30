@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "090d8d39a89e5051eec611f8b39cc40c",
+    "revision": "771122ba677b727358645c82da631e0e",
     "url": "/newPort/index.html"
   },
   {
-    "revision": "e206f5f1f152fe51df88",
+    "revision": "0ad4e34393b2566535d2",
     "url": "/newPort/static/css/2.37b2b448.chunk.css"
   },
   {
-    "revision": "ad6d29045df810663c1c",
+    "revision": "cceb95b8bcd3b84528d7",
     "url": "/newPort/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "e206f5f1f152fe51df88",
-    "url": "/newPort/static/js/2.aadd7f8d.chunk.js"
+    "revision": "0ad4e34393b2566535d2",
+    "url": "/newPort/static/js/2.4ec18d79.chunk.js"
   },
   {
     "revision": "cb4293a028d0175415ddb31dc1aaaefb",
-    "url": "/newPort/static/js/2.aadd7f8d.chunk.js.LICENSE.txt"
+    "url": "/newPort/static/js/2.4ec18d79.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad6d29045df810663c1c",
-    "url": "/newPort/static/js/main.57411d7b.chunk.js"
+    "revision": "cceb95b8bcd3b84528d7",
+    "url": "/newPort/static/js/main.0d908a34.chunk.js"
   },
   {
     "revision": "edf876a63c22f4de8d97",
