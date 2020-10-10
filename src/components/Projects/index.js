@@ -473,9 +473,6 @@ const Projects = props => {
                                     <LinkButton href="https://github.com/Hanataba-Coder/photosFromAPI" >
                                             Swift
                                     </LinkButton>
-                                    <LinkButton>
-                                            Kotlin
-                                    </LinkButton>
                                 </div>
                             </Col>
                         </Row>

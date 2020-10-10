@@ -591,6 +591,9 @@ const Home = props => {
                             <li>
                                 <a href="https://www.instagram.com/yodspat/" target="_blank" ><i class="fab fa-instagram"></i></a>
                             </li>
+                            <li>
+                                <a href="https://line.me/ti/p/wU0acrRC4K" target="_blank" ><i class="fab fa-line"></i></a>
+                            </li>
                         </Ul>
                     </div>
                     <div style={{marginTop: '5px', marginBottom: '20px'}} >
