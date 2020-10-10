@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/newPort/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/newPort/static/js/main.77c21ef6.chunk.js",
-    "main.js.map": "/newPort/static/js/main.77c21ef6.chunk.js.map",
+    "main.js": "/newPort/static/js/main.1f620f7a.chunk.js",
+    "main.js.map": "/newPort/static/js/main.1f620f7a.chunk.js.map",
     "runtime-main.js": "/newPort/static/js/runtime-main.cf150dbf.js",
     "runtime-main.js.map": "/newPort/static/js/runtime-main.cf150dbf.js.map",
     "static/css/2.37b2b448.chunk.css": "/newPort/static/css/2.37b2b448.chunk.css",
     "static/js/2.4ec18d79.chunk.js": "/newPort/static/js/2.4ec18d79.chunk.js",
     "static/js/2.4ec18d79.chunk.js.map": "/newPort/static/js/2.4ec18d79.chunk.js.map",
     "index.html": "/newPort/index.html",
-    "precache-manifest.8f87cb7dbcdfcde8419daa762476eac7.js": "/newPort/precache-manifest.8f87cb7dbcdfcde8419daa762476eac7.js",
+    "precache-manifest.24089103562e956558331577b6621ea4.js": "/newPort/precache-manifest.24089103562e956558331577b6621ea4.js",
     "service-worker.js": "/newPort/service-worker.js",
     "static/css/2.37b2b448.chunk.css.map": "/newPort/static/css/2.37b2b448.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/newPort/static/css/main.5ecd60fb.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/css/2.37b2b448.chunk.css",
     "static/js/2.4ec18d79.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.77c21ef6.chunk.js"
+    "static/js/main.1f620f7a.chunk.js"
   ]
 }
