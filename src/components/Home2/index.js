@@ -34,7 +34,7 @@ const Wrapper = styled.div`
 const FixedBackground = styled.div`
     background: linear-gradient(90deg,#BFA48D 50%,#fff 50%);
     height: 100vh; 
-    width: 100%;
+    max-width: 100%;
     position: relative;
     overflow: hidden;
 
@@ -157,7 +157,7 @@ const Home1 = () => {
                         >
                             <div className="wrapText">
                                 <h1>Hello,<span></span></h1>
-                                <h1>I'm Phoom<span></span></h1>
+                                <h1>I'm Yodsapat<span></span></h1>
                             </div>
                         </div>
                     </Col>
@@ -169,7 +169,7 @@ const Home1 = () => {
                             }}
                         >
                             <div className="wrapImage">
-                                <img src={profilePic} style={{height: '100%'}} />
+                                <img src={profilePic} style={{maxHeight: '400px'}} />
                             </div>
                         </div>
                     </Col>

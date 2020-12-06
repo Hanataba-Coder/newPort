@@ -5,7 +5,8 @@ export default createGlobalStyle`
     height: 100%;
     min-height: 100%;
     box-sizing: border-box;
-    // font-family: "Prompt";
+    font-family: "Prompt";
+    font-size: 16px;
     scroll-behavior: smooth;
     // background-color: rgba(0,0,0,0.8);
     // color: #fff;

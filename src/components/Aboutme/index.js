@@ -34,6 +34,7 @@ const Title = styled.span`
 `
 
 const WrapAboutMe = styled.div`
+    max-width: 100%;
     background-color: rgba(0,0,0,0.8); 
     color: #fff; 
 
@@ -91,7 +92,19 @@ const Ul = styled.ul`
     }
 
     & li > a:hover {
-        color: #fff;
+        &.facebook{
+            color: #046EE5;
+        }
+
+        &.ig {
+            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &.line {
+            color: #02B902;
+        }
     }
 `
 
@@ -111,7 +124,7 @@ const AboutMe = props => {
                         <Row  >
                             <Col xs={24} sm={24} md={12} >
                                 <div className="profileWrap">
-                                    <div style={{width: '50%', height: '50%'}} >
+                                    <div style={{maxWidth: '50%', height: '50%'}} >
                                         <img style={{width: '100%'}} src={Profile} />
                                     </div>
                                 </div>
@@ -140,13 +153,13 @@ const AboutMe = props => {
                                 </div>
                                 <Ul>
                                     <li>
-                                        <a href="https://www.facebook.com/phoom.yodsapat/" target="_blank" ><i class="fab fa-facebook-square"></i></a>
+                                        <a className="facebook" href="https://www.facebook.com/phoom.yodsapat/" target="_blank" ><i class="fab fa-facebook-square"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/yodspat/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                                        <a className="ig" href="https://www.instagram.com/yodspat/" target="_blank" ><i class="fab fa-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://line.me/ti/p/wU0acrRC4K" target="_blank" ><i class="fab fa-line"></i></a>
+                                        <a className="line" href="https://line.me/ti/p/wU0acrRC4K" target="_blank" ><i class="fab fa-line"></i></a>
                                     </li>
                                 </Ul>
                             </Col>

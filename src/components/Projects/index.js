@@ -255,6 +255,17 @@ const CenterVertical = styled.div`
     justify-content: center;
 `
 
+const FixedBackgroundSecond = styled.div`
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('https://www.tni.ac.th/home/storage/image/catalog/news/2019/01-2019/IMG_7033.jpg');
+    height: 70%; 
+    width: 100%;
+    position: relative;
+`
+
 const Projects = props => {
     const refSmartPlug = useRef(null);
     const refChatApp = useRef(null);
@@ -348,6 +359,9 @@ const Projects = props => {
                                     </p>
                                     <LinkButton  href="https://hanataba-coder.github.io/BullsNCowsReact/">
                                             Try It! on React 
+                                    </LinkButton>
+                                    <LinkButton>
+                                        GitHub
                                     </LinkButton>
                                     <LinkButton href="https://github.com/Hanataba-Coder/guessNumber" >
                                             Swift
@@ -478,6 +492,28 @@ const Projects = props => {
                         </Row>
                     </WrapChatApp>
                 </div>
+
+                <FixedBackgroundSecond style={{display: 'none'}} > 
+                <div  
+                    style={{
+                        color: '#fff',
+                        alignSelf: 'center',
+                        fontSize: '30px',
+                        top: '0',
+                        position: 'absolute',
+                        left: '0',
+                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                        padding: '30px',
+                        width: '100%',
+                        height: '100%',
+                        display: 'flex',
+                        alignItems: 'center'
+                    }}
+                >
+                    Graduated from <br/>
+                    Thai-Nichi institute of technology
+                </div>
+            </FixedBackgroundSecond>
         </Wrapper>
     )
 }
