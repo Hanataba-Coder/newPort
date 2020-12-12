@@ -137,7 +137,7 @@ const AboutMe = props => {
                                         </p>
                                     </h1>
                                 </div>
-                                <ResumeButton href="https://drive.google.com/file/d/1FB94SMg5YVkcUUJ-MpkfQoue65tamUYD/view">
+                                <ResumeButton href="https://drive.google.com/file/d/12WRIidK-HL24jp0LDfBUkfi0jhbkiVRy/view?usp=sharing">
                                     Download Resume
                                 </ResumeButton>
                             </Col>
