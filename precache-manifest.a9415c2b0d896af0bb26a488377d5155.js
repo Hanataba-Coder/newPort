@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f693fad41d4865fb46edb4466b16f5fa",
+    "revision": "f75673ac37313863e37c8158565e1745",
     "url": "/newPort/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newPort/static/css/2.09684624.chunk.css"
   },
   {
-    "revision": "dfc545336bf259a7acc3",
+    "revision": "7cf2c4ac0cff79d6a2a8",
     "url": "/newPort/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newPort/static/js/2.467f45d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dfc545336bf259a7acc3",
-    "url": "/newPort/static/js/main.a6dc8083.chunk.js"
+    "revision": "7cf2c4ac0cff79d6a2a8",
+    "url": "/newPort/static/js/main.741b0673.chunk.js"
   },
   {
     "revision": "edf876a63c22f4de8d97",
