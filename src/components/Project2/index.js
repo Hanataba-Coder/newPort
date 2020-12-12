@@ -29,6 +29,7 @@ const Project2 = () => {
             <ShowPhoto refApp={refShowPhoto} />
             <ChatApp refApp={refChatApp} />
         </div>
+        
     )
 }
 
