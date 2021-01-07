@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/newPort/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/newPort/static/js/main.741b0673.chunk.js",
-    "main.js.map": "/newPort/static/js/main.741b0673.chunk.js.map",
+    "main.js": "/newPort/static/js/main.11695af4.chunk.js",
+    "main.js.map": "/newPort/static/js/main.11695af4.chunk.js.map",
     "runtime-main.js": "/newPort/static/js/runtime-main.cf150dbf.js",
     "runtime-main.js.map": "/newPort/static/js/runtime-main.cf150dbf.js.map",
     "static/css/2.09684624.chunk.css": "/newPort/static/css/2.09684624.chunk.css",
-    "static/js/2.467f45d1.chunk.js": "/newPort/static/js/2.467f45d1.chunk.js",
-    "static/js/2.467f45d1.chunk.js.map": "/newPort/static/js/2.467f45d1.chunk.js.map",
+    "static/js/2.6e2d05ff.chunk.js": "/newPort/static/js/2.6e2d05ff.chunk.js",
+    "static/js/2.6e2d05ff.chunk.js.map": "/newPort/static/js/2.6e2d05ff.chunk.js.map",
     "index.html": "/newPort/index.html",
-    "precache-manifest.a9415c2b0d896af0bb26a488377d5155.js": "/newPort/precache-manifest.a9415c2b0d896af0bb26a488377d5155.js",
+    "precache-manifest.703036145b8f0344d2080b3d8968c33c.js": "/newPort/precache-manifest.703036145b8f0344d2080b3d8968c33c.js",
     "service-worker.js": "/newPort/service-worker.js",
     "static/css/2.09684624.chunk.css.map": "/newPort/static/css/2.09684624.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/newPort/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.467f45d1.chunk.js.LICENSE.txt": "/newPort/static/js/2.467f45d1.chunk.js.LICENSE.txt",
+    "static/js/2.6e2d05ff.chunk.js.LICENSE.txt": "/newPort/static/js/2.6e2d05ff.chunk.js.LICENSE.txt",
     "static/media/BnCNew.png": "/newPort/static/media/BnCNew.60e6ac6e.png",
     "static/media/IMG_2053.png": "/newPort/static/media/IMG_2053.f5f6cd32.png",
     "static/media/chatapp1.png": "/newPort/static/media/chatapp1.77710196.png",
@@ -29,13 +29,14 @@
     "static/media/slick-theme.css": "/newPort/static/media/slick.f97e3bbf.svg",
     "static/media/smartplug1.png": "/newPort/static/media/smartplug1.0358f5c0.png",
     "static/media/smartplug2.png": "/newPort/static/media/smartplug2.5ba0cd9f.png",
-    "static/media/smartplug3.png": "/newPort/static/media/smartplug3.b3730ad0.png"
+    "static/media/smartplug3.png": "/newPort/static/media/smartplug3.b3730ad0.png",
+    "static/media/stadiaClone1.png": "/newPort/static/media/stadiaClone1.ed9a9007.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cf150dbf.js",
     "static/css/2.09684624.chunk.css",
-    "static/js/2.467f45d1.chunk.js",
+    "static/js/2.6e2d05ff.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.741b0673.chunk.js"
+    "static/js/main.11695af4.chunk.js"
   ]
 }
