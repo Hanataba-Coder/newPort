@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c770c91b1397c85e82e542e6bed8e0d",
+    "revision": "e4941412c26d0c3c56f4ff464accf85a",
     "url": "/newPort/index.html"
   },
   {
-    "revision": "42e3010b49ed7c865293",
+    "revision": "486495fc00d8544d3858",
     "url": "/newPort/static/css/2.09684624.chunk.css"
   },
   {
-    "revision": "4a26ed0cffa66993cfd3",
+    "revision": "838a77fe4e6a55db6a18",
     "url": "/newPort/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "42e3010b49ed7c865293",
-    "url": "/newPort/static/js/2.6e2d05ff.chunk.js"
+    "revision": "486495fc00d8544d3858",
+    "url": "/newPort/static/js/2.0711522c.chunk.js"
   },
   {
     "revision": "cb4293a028d0175415ddb31dc1aaaefb",
-    "url": "/newPort/static/js/2.6e2d05ff.chunk.js.LICENSE.txt"
+    "url": "/newPort/static/js/2.0711522c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a26ed0cffa66993cfd3",
-    "url": "/newPort/static/js/main.11695af4.chunk.js"
+    "revision": "838a77fe4e6a55db6a18",
+    "url": "/newPort/static/js/main.3df7064b.chunk.js"
   },
   {
     "revision": "edf876a63c22f4de8d97",
@@ -162,5 +162,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed9a90075fab9215c9bdd51810c57d38",
     "url": "/newPort/static/media/stadiaClone1.ed9a9007.png"
+  },
+  {
+    "revision": "a01364d069c88a05a1dc625bba4393c4",
+    "url": "/newPort/static/media/todo.a01364d0.png"
+  },
+  {
+    "revision": "33206385a9deaf437b9a712380480905",
+    "url": "/newPort/static/media/todoMobile.33206385.png"
   }
 ]);
